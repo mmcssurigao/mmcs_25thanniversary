@@ -95,6 +95,7 @@
         text-decoration: none;
         color: #fefefe;
         text-align: center;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
         * {box-sizing: border-box}
     .pop {font-family: Tahoma, "Trebuchet MS", sans-serif; margin:0;}
