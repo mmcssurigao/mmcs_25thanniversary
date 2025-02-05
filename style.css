@@ -24,6 +24,7 @@
         align-items: center; 
         grid-template-columns: 1.5fr 2fr;
         column-gap: 0px;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
        }
        
        img {
@@ -57,6 +58,7 @@
         align-items: center; 
         grid-template-columns: 1.5fr 2fr;
         column-gap: 0px;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
        
        }
        .container2 {
@@ -64,6 +66,7 @@
         align-items: center; 
         grid-template-columns: 2.1fr 1.5fr;
         column-gap: 0px;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
         
        }
        .container3 {
@@ -71,6 +74,7 @@
         align-items: center; 
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 0px;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
         
        }
        .video{
