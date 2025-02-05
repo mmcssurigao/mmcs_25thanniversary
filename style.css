@@ -3,6 +3,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 500% 500%;
+        font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
     .header{
         display: grid;
