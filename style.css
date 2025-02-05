@@ -2,7 +2,7 @@
         background-image: url('https://img.freepik.com/premium-photo/merry-christmas-red-background_1361-3542.jpg?semt=ais_hybrid');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 100% 100%;
+        background-size: 500% 500%;
     }
     .header{
         display: grid;
