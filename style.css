@@ -1,70 +1,157 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    body {
+        background-image: url('file:///Users/gunrealomega/Desktop/mmcs/istockphoto-2158203844-612x612.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .header{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+        .jpg{
+        max-width: 500%;
+        max-height:100%;
+        float: left;
 
-html {
-  font-size: 62.5%;
-}
+        }
 
-body {
-  background-color: #fff0f6;
-  font-family: "Protest Riot", sans-serif;
-}
+    
+    .cont {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1.5fr 2fr;
+        column-gap: 0px;
+       }
+       
+       img {
+         max-width: 230%;
+         max-height:70%;
+         float: left;
+       }
+       
+       .text {
+         font-size: 30px;
+         padding-left: 20px;
+         padding-top: 5%;
+         float: left;
+         color:white;
+       }
+       .txt{
 
-.container {
-  height: 100vh;
-  margin: 0 auto;
+       
+         font-size: 30px;
+         padding-left: 20px;
+         padding-top: 5%;
+        float: left;
+        color:white;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+       }
 
-.cat-img {
-  width: 30rem;
-  height: 30rem;
-  margin-bottom: 2rem;
-}
+       .container1 {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1.5fr 2fr;
+        column-gap: 0px;
+       }
+       .container2 {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 2.1fr 1.5fr;
+        column-gap: 0px;
+       }
+       .container3 {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0px;
+       }
+       .video{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1.5fr 2fr;
+        column-gap: 0px;
+       }
+       .t{
+        font-size: 30px;
+         padding-left: 20px;
+         padding-top: 5%;
+        float: left;
+        color:white;
 
-.title {
-  font-size: 3.6rem;
-  color: #f53699;
-  text-align: center;
-  margin-bottom: 2rem;
-}
+       }
+       a {
+        text-decoration: none;
+        color: #fefefe;
+        }
+    .bob{
+        text-decoration: none;
+        color: #fefefe;
+        text-align: center;
+    }
+        * {box-sizing: border-box}
+    .pop {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 
-  gap: 1rem;
-}
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
 
-.btn {
-  padding: 1.5rem 2.5rem;
-  border: none;
-  border-radius: 4px;
+    
 
-  color: white;
-  font-size: 1.6rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-block;
-}
 
-.btn--yes {
-  background-color: #40c057;
-}
 
-.btn--no {
-  background-color: #f03e3e;
-}
 
-.hidden {
-  display: none;
-}
+    .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+
+  
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+    
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+    b{
+        color: rgb(4, 255, 4);
+    }
