@@ -3,7 +3,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 500% 500%;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+    
     }
     .header{
         display: grid;
@@ -38,7 +38,7 @@
          padding-top: 5%;
          float: left;
          color:white;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+  
        }
        .txt{
 
@@ -48,7 +48,7 @@
          padding-top: 5%;
         float: left;
         color:white;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+
 
        }
 
@@ -57,21 +57,21 @@
         align-items: center; 
         grid-template-columns: 1.5fr 2fr;
         column-gap: 0px;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+       
        }
        .container2 {
         display: grid;
         align-items: center; 
         grid-template-columns: 2.1fr 1.5fr;
         column-gap: 0px;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+        
        }
        .container3 {
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 0px;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
+        
        }
        .video{
         display: grid;
@@ -86,19 +86,15 @@
          padding-top: 5%;
         float: left;
         color:white;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
-
        }
        a {
         text-decoration: none;
         color: #fefefe;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
         }
     .bob{
         text-decoration: none;
         color: #fefefe;
         text-align: center;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
         * {box-sizing: border-box}
     .pop {font-family: Tahoma, "Trebuchet MS", sans-serif; margin:0;}
@@ -125,7 +121,6 @@
     bottom: 8px;
     width: 100%;
     text-align: center;
-    font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
 
 
@@ -135,7 +130,6 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
-    font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
 
   
@@ -148,7 +142,6 @@
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-        font-family: Tahoma, "Trebuchet MS", sans-serif;
     }
 
     .active, .dot:hover {
