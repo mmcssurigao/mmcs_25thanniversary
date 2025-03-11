@@ -42,17 +42,12 @@
   
        }
        .txt{
-
-       
-         font-size: 30px;
+           font-size: 30px;
          padding-left: 20px;
          padding-top: 5%;
         float: left;
         color:white;
-
-
        }
-
        .container1 {
         display: grid;
         align-items: center; 
